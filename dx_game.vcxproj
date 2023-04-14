@@ -11,6 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\RPG\program\game\Character\CharacterBase.cpp" />
+    <ClCompile Include="..\RPG\program\game\Character\MyCharacter.cpp" />
+    <ClCompile Include="..\RPG\program\game\Skill\SkillBase.cpp" />
+    <ClCompile Include="..\RPG\program\game\Skill\SkillTree.cpp" />
+    <ClCompile Include="..\RPG\program\game\Skill\SkillTreeSkill.cpp" />
     <ClCompile Include="program\dxlib_ext\create_mesh\dxlib_ext_mesh_barrel.cpp" />
     <ClCompile Include="program\dxlib_ext\create_mesh\dxlib_ext_mesh_box.cpp" />
     <ClCompile Include="program\dxlib_ext\create_mesh\dxlib_ext_mesh_cone.cpp" />
@@ -57,6 +62,12 @@
     <ClCompile Include="program\system\sys_main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\RPG\program\game\Character\CharacterBase.h" />
+    <ClInclude Include="..\RPG\program\game\Character\MyCharacter.h" />
+    <ClInclude Include="..\RPG\program\game\Skill\SkillBase.h" />
+    <ClInclude Include="..\RPG\program\game\Skill\SkillCommand.h" />
+    <ClInclude Include="..\RPG\program\game\Skill\SkillTree.h" />
+    <ClInclude Include="..\RPG\program\game\Skill\SkillTreeSkill.h" />
     <ClInclude Include="program\dxlib_ext\dxlib_ext.h" />
     <ClInclude Include="program\dxlib_ext\dxlib_ext_camera.h" />
     <ClInclude Include="program\dxlib_ext\dxlib_ext_data.h" />

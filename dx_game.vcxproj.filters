@@ -29,6 +29,12 @@
     <Filter Include="program\game\scene">
       <UniqueIdentifier>{36a023e8-05af-4131-819f-285ef87e3f60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="program\game\Character">
+      <UniqueIdentifier>{6ce1fc4c-9bee-4d09-9e57-43d0d940e4ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\game\Skill">
+      <UniqueIdentifier>{dad2d5ba-3a76-4fc5-8e5e-de3083fd39c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="program\system\sys_main.cpp">
@@ -163,6 +169,21 @@
     <ClCompile Include="program\game\gm_camera.cpp">
       <Filter>program\game</Filter>
     </ClCompile>
+    <ClCompile Include="..\RPG\program\game\Character\CharacterBase.cpp">
+      <Filter>program\game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RPG\program\game\Character\MyCharacter.cpp">
+      <Filter>program\game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RPG\program\game\Skill\SkillBase.cpp">
+      <Filter>program\game\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RPG\program\game\Skill\SkillTree.cpp">
+      <Filter>program\game\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RPG\program\game\Skill\SkillTreeSkill.cpp">
+      <Filter>program\game\Skill</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="program\library\picojson.h">
@@ -275,6 +296,24 @@
     </ClInclude>
     <ClInclude Include="program\game\gm_camera.h">
       <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RPG\program\game\Character\CharacterBase.h">
+      <Filter>program\game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RPG\program\game\Character\MyCharacter.h">
+      <Filter>program\game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RPG\program\game\Skill\SkillBase.h">
+      <Filter>program\game\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RPG\program\game\Skill\SkillCommand.h">
+      <Filter>program\game\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RPG\program\game\Skill\SkillTree.h">
+      <Filter>program\game\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RPG\program\game\Skill\SkillTreeSkill.h">
+      <Filter>program\game\Skill</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
